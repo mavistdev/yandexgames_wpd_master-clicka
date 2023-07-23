@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Рублёвка</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/> 
+    <link rel="stylesheet" href="clicker.css">
+</head>
+<body>
+    <div class="container">
+        <h1>РУБЛЕВКА КЛИКЕР</h1>
+        <button id="clickButton" class="disable-dbl-tap-zoom">ЗАРАБОТАТЬ!</button>
+        <p>Количество Рублей: <span id="clickCount">0</span></p>
+        <p>Прокачка заработка: <span id="clickUpgrade">0</span></p>
+        <button id="upgradeButton" class="disable-dbl-tap-zoom">Улучшить Рубли</button>
+        <p>Попыток заработать: <span id="totalClicks">0</span></p>
+        <p>Цена Рубля: <span id="clickCost">0</span></p>
+        <button id="StartTimer">Запустить отсчет</button>
+<!--         <p>Получи 200 монет за рекламу</p>
+        <button id="adba">Получить</button> -->
+        <p><form name=MyForm>
+  <input name=stopwatch size=10 value="00:00:00.00" disabled>
+</form></p>
+    </div>
+    <!-- Yandex Games SDK -->
+<!-- <script src="https://yandex.ru/games/sdk/v2"></script> выдает дохуя ошибок и варнов в душе не ебу что с ним делать-->
+    <script src="clicker.js"></script>
+</body>
+</html>
